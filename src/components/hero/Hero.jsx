@@ -1,5 +1,11 @@
 import "./Hero.css"
 import Apple from "../../assets/whiteAppleLogo.svg"
+import Frame from "../../assets/Frame80.png"
+import Frames from "../../assets/Frame79.png"
+import Fram from "../../assets/Frame1020.png"
+import Images from "../../assets/Frame78.png"
+import Image from "../../assets/Frame18.png"
+import Imag from "../../assets/Frame82.png"
 
 const Hero = () => {
 
@@ -90,14 +96,14 @@ const Hero = () => {
           </div>
           <div className="onetwo">
                     <div className="frame1">
-                        <img src="IMAGES/Frame80.png" alt="" className="tinyimgs safelock"/>
-                        <img src="IMAGES/Frame79.png" alt="" className="tinyimgs flexnaira"/>
-                        <img src="IMAGES/Frame1020.png " alt="" className="tinyimgs piggybank"/>
+                        <img src={Frame} alt="" className="tinyimgs safelock"/>
+                        <img src={Frames} alt="" className="tinyimgs flexnaira"/>
+                        <img src={Fram} alt="" className="tinyimgs piggybank"/>
                     </div>
                     <div className="frame2">
-                        <img src="IMAGES/Frame78.png" alt="" className="tinyimgs target"/>
-                        <img src="IMAGES/Frame18.png" alt="" className="tinyimgs investify"/>
-                        <img src="IMAGES/Frame82.png" alt="" className="tinyimgs housemoney"/>
+                        <img src={Images} alt="" className="tinyimgs target"/>
+                        <img src={Image} alt="" className="tinyimgs investify"/>
+                        <img src={Imag}alt="" className="tinyimgs housemoney"/>
                     </div>
                 </div>
         </div>
